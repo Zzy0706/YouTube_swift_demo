@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315B6B54303BAB6349F529F8 /* Pods_YouTube_swift_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2E9CB8B32FCEC0EFABF7E6 /* Pods_YouTube_swift_demo.framework */; };
 		7F0B083E1F0B4378001D3587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B083D1F0B4378001D3587 /* AppDelegate.swift */; };
 		7F0B08401F0B4378001D3587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B083F1F0B4378001D3587 /* ViewController.swift */; };
 		7F0B08431F0B4378001D3587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0B08411F0B4378001D3587 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EE871E96D5CA3F050283B03 /* Pods-YouTube_swift_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube_swift_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouTube_swift_demo/Pods-YouTube_swift_demo.debug.xcconfig"; sourceTree = "<group>"; };
 		7F0B083A1F0B4378001D3587 /* YouTube_swift_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube_swift_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0B083D1F0B4378001D3587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F0B083F1F0B4378001D3587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,41 @@
 		7F0B08591F0B4378001D3587 /* YouTube_swift_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTube_swift_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0B085D1F0B4378001D3587 /* YouTube_swift_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTube_swift_demoUITests.swift; sourceTree = "<group>"; };
 		7F0B085F1F0B4378001D3587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F0B08B51F0B6C11001D3587 /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		7F0B08B61F0B6C11001D3587 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		7F0B08B71F0B6C11001D3587 /* ConstraintConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		7F0B08B81F0B6C11001D3587 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		7F0B08B91F0B6C11001D3587 /* ConstraintDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		7F0B08BA1F0B6C11001D3587 /* ConstraintDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		7F0B08BB1F0B6C11001D3587 /* ConstraintInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		7F0B08BC1F0B6C11001D3587 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		7F0B08BD1F0B6C11001D3587 /* ConstraintItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		7F0B08BE1F0B6C11001D3587 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		7F0B08BF1F0B6C11001D3587 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		7F0B08C01F0B6C11001D3587 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		7F0B08C11F0B6C11001D3587 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		7F0B08C21F0B6C11001D3587 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		7F0B08C31F0B6C11001D3587 /* ConstraintMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		7F0B08C41F0B6C11001D3587 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		7F0B08C51F0B6C11001D3587 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		7F0B08C61F0B6C11001D3587 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		7F0B08C71F0B6C11001D3587 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		7F0B08C81F0B6C11001D3587 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		7F0B08C91F0B6C11001D3587 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		7F0B08CA1F0B6C11001D3587 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		7F0B08CB1F0B6C11001D3587 /* ConstraintPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		7F0B08CC1F0B6C11001D3587 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		7F0B08CD1F0B6C11001D3587 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		7F0B08CE1F0B6C11001D3587 /* ConstraintRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		7F0B08CF1F0B6C11001D3587 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		7F0B08D01F0B6C11001D3587 /* ConstraintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		7F0B08D11F0B6C11001D3587 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		7F0B08D21F0B6C11001D3587 /* Debugging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		7F0B08D31F0B6C11001D3587 /* LayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		7F0B08D41F0B6C11001D3587 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		7F0B08D51F0B6C11001D3587 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		AF42A1A08E30A75701598E9C /* Pods-YouTube_swift_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube_swift_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouTube_swift_demo/Pods-YouTube_swift_demo.release.xcconfig"; sourceTree = "<group>"; };
+		DD2E9CB8B32FCEC0EFABF7E6 /* Pods_YouTube_swift_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTube_swift_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315B6B54303BAB6349F529F8 /* Pods_YouTube_swift_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25310107D33A1FBD4B1D5730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE871E96D5CA3F050283B03 /* Pods-YouTube_swift_demo.debug.xcconfig */,
+				AF42A1A08E30A75701598E9C /* Pods-YouTube_swift_demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7F0B08311F0B4378001D3587 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				7F0B08511F0B4378001D3587 /* YouTube_swift_demoTests */,
 				7F0B085C1F0B4378001D3587 /* YouTube_swift_demoUITests */,
 				7F0B083B1F0B4378001D3587 /* Products */,
+				7F0B08B31F0B6C10001D3587 /* Frameworks */,
+				25310107D33A1FBD4B1D5730 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +174,56 @@
 			path = YouTube_swift_demoUITests;
 			sourceTree = "<group>";
 		};
+		7F0B08B31F0B6C10001D3587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F0B08B41F0B6C11001D3587 /* Source */,
+				DD2E9CB8B32FCEC0EFABF7E6 /* Pods_YouTube_swift_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F0B08B41F0B6C11001D3587 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7F0B08B51F0B6C11001D3587 /* Constraint.swift */,
+				7F0B08B61F0B6C11001D3587 /* ConstraintAttributes.swift */,
+				7F0B08B71F0B6C11001D3587 /* ConstraintConfig.swift */,
+				7F0B08B81F0B6C11001D3587 /* ConstraintConstantTarget.swift */,
+				7F0B08B91F0B6C11001D3587 /* ConstraintDescription.swift */,
+				7F0B08BA1F0B6C11001D3587 /* ConstraintDSL.swift */,
+				7F0B08BB1F0B6C11001D3587 /* ConstraintInsets.swift */,
+				7F0B08BC1F0B6C11001D3587 /* ConstraintInsetTarget.swift */,
+				7F0B08BD1F0B6C11001D3587 /* ConstraintItem.swift */,
+				7F0B08BE1F0B6C11001D3587 /* ConstraintLayoutGuide+Extensions.swift */,
+				7F0B08BF1F0B6C11001D3587 /* ConstraintLayoutGuide.swift */,
+				7F0B08C01F0B6C11001D3587 /* ConstraintLayoutGuideDSL.swift */,
+				7F0B08C11F0B6C11001D3587 /* ConstraintLayoutSupport.swift */,
+				7F0B08C21F0B6C11001D3587 /* ConstraintLayoutSupportDSL.swift */,
+				7F0B08C31F0B6C11001D3587 /* ConstraintMaker.swift */,
+				7F0B08C41F0B6C11001D3587 /* ConstraintMakerEditable.swift */,
+				7F0B08C51F0B6C11001D3587 /* ConstraintMakerExtendable.swift */,
+				7F0B08C61F0B6C11001D3587 /* ConstraintMakerFinalizable.swift */,
+				7F0B08C71F0B6C11001D3587 /* ConstraintMakerPriortizable.swift */,
+				7F0B08C81F0B6C11001D3587 /* ConstraintMakerRelatable.swift */,
+				7F0B08C91F0B6C11001D3587 /* ConstraintMultiplierTarget.swift */,
+				7F0B08CA1F0B6C11001D3587 /* ConstraintOffsetTarget.swift */,
+				7F0B08CB1F0B6C11001D3587 /* ConstraintPriority.swift */,
+				7F0B08CC1F0B6C11001D3587 /* ConstraintPriorityTarget.swift */,
+				7F0B08CD1F0B6C11001D3587 /* ConstraintRelatableTarget.swift */,
+				7F0B08CE1F0B6C11001D3587 /* ConstraintRelation.swift */,
+				7F0B08CF1F0B6C11001D3587 /* ConstraintView+Extensions.swift */,
+				7F0B08D01F0B6C11001D3587 /* ConstraintView.swift */,
+				7F0B08D11F0B6C11001D3587 /* ConstraintViewDSL.swift */,
+				7F0B08D21F0B6C11001D3587 /* Debugging.swift */,
+				7F0B08D31F0B6C11001D3587 /* LayoutConstraint.swift */,
+				7F0B08D41F0B6C11001D3587 /* LayoutConstraintItem.swift */,
+				7F0B08D51F0B6C11001D3587 /* UILayoutSupport+Extensions.swift */,
+			);
+			name = Source;
+			path = "../Comobot-wifi-demo-swift/Pods/SnapKit/Source";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F0B08621F0B4378001D3587 /* Build configuration list for PBXNativeTarget "YouTube_swift_demo" */;
 			buildPhases = (
+				57ED795D0C058F8265BB80E6 /* [CP] Check Pods Manifest.lock */,
 				7F0B08361F0B4378001D3587 /* Sources */,
 				7F0B08371F0B4378001D3587 /* Frameworks */,
 				7F0B08381F0B4378001D3587 /* Resources */,
+				E55109775DEB798722BA92D6 /* [CP] Embed Pods Frameworks */,
+				1735C741FC82B0A99F601B81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +358,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1735C741FC82B0A99F601B81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTube_swift_demo/Pods-YouTube_swift_demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57ED795D0C058F8265BB80E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E55109775DEB798722BA92D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTube_swift_demo/Pods-YouTube_swift_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F0B08361F0B4378001D3587 /* Sources */ = {
@@ -413,6 +563,7 @@
 		};
 		7F0B08631F0B4378001D3587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE871E96D5CA3F050283B03 /* Pods-YouTube_swift_demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YD2EDN9H58;
@@ -426,6 +577,7 @@
 		};
 		7F0B08641F0B4378001D3587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF42A1A08E30A75701598E9C /* Pods-YouTube_swift_demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YD2EDN9H58;
