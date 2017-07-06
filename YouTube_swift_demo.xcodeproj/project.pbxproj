@@ -15,6 +15,7 @@
 		7F0B08481F0B4378001D3587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0B08461F0B4378001D3587 /* LaunchScreen.storyboard */; };
 		7F0B08531F0B4378001D3587 /* YouTube_swift_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B08521F0B4378001D3587 /* YouTube_swift_demoTests.swift */; };
 		7F0B085E1F0B4378001D3587 /* YouTube_swift_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B085D1F0B4378001D3587 /* YouTube_swift_demoUITests.swift */; };
+		7F6264D51F0DD873000EBEF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6264D41F0DD873000EBEF2 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		7F0B08D31F0B6C11001D3587 /* LayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		7F0B08D41F0B6C11001D3587 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		7F0B08D51F0B6C11001D3587 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		7F6264D41F0DD873000EBEF2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AF42A1A08E30A75701598E9C /* Pods-YouTube_swift_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube_swift_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouTube_swift_demo/Pods-YouTube_swift_demo.release.xcconfig"; sourceTree = "<group>"; };
 		DD2E9CB8B32FCEC0EFABF7E6 /* Pods_YouTube_swift_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTube_swift_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 		7F0B083C1F0B4378001D3587 /* YouTube_swift_demo */ = {
 			isa = PBXGroup;
 			children = (
+				7F6264D31F0DD83D000EBEF2 /* Extension */,
 				7F0B083D1F0B4378001D3587 /* AppDelegate.swift */,
 				7F0B083F1F0B4378001D3587 /* ViewController.swift */,
 				7F0B08411F0B4378001D3587 /* Main.storyboard */,
@@ -222,6 +225,14 @@
 			);
 			name = Source;
 			path = "../Comobot-wifi-demo-swift/Pods/SnapKit/Source";
+			sourceTree = "<group>";
+		};
+		7F6264D31F0DD83D000EBEF2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F6264D41F0DD873000EBEF2 /* Extensions.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0B08401F0B4378001D3587 /* ViewController.swift in Sources */,
+				7F6264D51F0DD873000EBEF2 /* Extensions.swift in Sources */,
 				7F0B083E1F0B4378001D3587 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -666,6 +678,7 @@
 				7F0B08641F0B4378001D3587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F0B08651F0B4378001D3587 /* Build configuration list for PBXNativeTarget "YouTube_swift_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +687,7 @@
 				7F0B08671F0B4378001D3587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F0B08681F0B4378001D3587 /* Build configuration list for PBXNativeTarget "YouTube_swift_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +696,7 @@
 				7F0B086A1F0B4378001D3587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

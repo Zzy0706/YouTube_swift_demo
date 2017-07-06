@@ -14,10 +14,20 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Home"
+        creatHomeLabel()
+        self.navigationController!.navigationBar.isTranslucent = false
         creatCollectionview()
         collectionview.backgroundColor = UIColor.white
     }
+    //自定义navigationItem title
+    func creatHomeLabel(){
+        let titleLabel = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: view.frame.width-30, height: view.frame.height))
+        titleLabel.text = "Home"
+        titleLabel.textColor = UIColor.white
+        titleLabel.font = UIFont.systemFont(ofSize: 20)
+        navigationItem.titleView = titleLabel
+    }
+    
     //MARK:UICollectionView创建
     func creatCollectionview(){
     let r = UIScreen.main.bounds
@@ -138,8 +148,4 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
 
 
 }
-extension UIColor{
-    static func rgb(red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor{
-        return UIColor.init(red: red/255, green: green/255, blue: blue/255, alpha: 1)
-    }
-}
+
