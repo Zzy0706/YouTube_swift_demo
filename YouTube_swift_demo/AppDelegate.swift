@@ -17,8 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController.init(rootViewController: ViewController())
+        window?.rootViewController = UINavigationController.init(rootViewController: HomeViewController())
         UINavigationBar.appearance().barTintColor = UIColor.rgb(red: 239, green: 32, blue: 31)
+        //去分割线
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
+        let statusBarBackgroundView = UIView.init()
+        statusBarBackgroundView.backgroundColor = UIColor.rgb(red: 194, green: 31, blue: 31)
+        window?.addSubview(statusBarBackgroundView)
+        statusBarBackgroundView.snp.makeConstraints { (make) in
+            make.top.equalTo(self.window!)
+            make.size.equalTo(CGSize.init(width: (window?.frame.width)!, height: 20))
+        }
         return true
     }
 
