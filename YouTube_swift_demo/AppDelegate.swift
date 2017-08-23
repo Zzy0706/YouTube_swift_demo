@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let statusBarBackgroundView = UIView.init()
         statusBarBackgroundView.backgroundColor = UIColor.rgb(red: 194, green: 31, blue: 31)
         window?.addSubview(statusBarBackgroundView)
+        
         statusBarBackgroundView.snp.makeConstraints { (make) in
             make.top.equalTo(self.window!)
             make.size.equalTo(CGSize.init(width: (window?.frame.width)!, height: 20))

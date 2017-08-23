@@ -15,6 +15,7 @@
 		7F0B08481F0B4378001D3587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0B08461F0B4378001D3587 /* LaunchScreen.storyboard */; };
 		7F0B08531F0B4378001D3587 /* YouTube_swift_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B08521F0B4378001D3587 /* YouTube_swift_demoTests.swift */; };
 		7F0B085E1F0B4378001D3587 /* YouTube_swift_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0B085D1F0B4378001D3587 /* YouTube_swift_demoUITests.swift */; };
+		7F2741EF1F4D0A340066C551 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2741EE1F4D0A340066C551 /* Video.swift */; };
 		7F6264D51F0DD873000EBEF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6264D41F0DD873000EBEF2 /* Extensions.swift */; };
 		7FBF73D11F3870FB00870F44 /* YoutTubeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF73D01F3870FB00870F44 /* YoutTubeVideoCell.swift */; };
 		7FBF73D41F38742700870F44 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF73D31F38742700870F44 /* MenuBar.swift */; };
@@ -85,6 +86,7 @@
 		7F0B08D31F0B6C11001D3587 /* LayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		7F0B08D41F0B6C11001D3587 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		7F0B08D51F0B6C11001D3587 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		7F2741EE1F4D0A340066C551 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		7F6264D41F0DD873000EBEF2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7FBF73D01F3870FB00870F44 /* YoutTubeVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutTubeVideoCell.swift; sourceTree = "<group>"; };
 		7FBF73D31F38742700870F44 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		7F0B083C1F0B4378001D3587 /* YouTube_swift_demo */ = {
 			isa = PBXGroup;
 			children = (
+				7F2741F01F4D0ACB0066C551 /* Model */,
 				7FBF73D21F38715A00870F44 /* Comtroller */,
 				7FBF73CF1F3870AB00870F44 /* Views */,
 				7F6264D31F0DD83D000EBEF2 /* Extension */,
@@ -230,6 +233,14 @@
 			);
 			name = Source;
 			path = "../Comobot-wifi-demo-swift/Pods/SnapKit/Source";
+			sourceTree = "<group>";
+		};
+		7F2741F01F4D0ACB0066C551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F2741EE1F4D0A340066C551 /* Video.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		7F6264D31F0DD83D000EBEF2 /* Extension */ = {
@@ -446,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0B08401F0B4378001D3587 /* HomeViewController.swift in Sources */,
+				7F2741EF1F4D0A340066C551 /* Video.swift in Sources */,
 				7F6264D51F0DD873000EBEF2 /* Extensions.swift in Sources */,
 				7FBF73D11F3870FB00870F44 /* YoutTubeVideoCell.swift in Sources */,
 				7F0B083E1F0B4378001D3587 /* AppDelegate.swift in Sources */,
